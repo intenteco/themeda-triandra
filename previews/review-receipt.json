@@ -1,0 +1,117 @@
+{
+  "projection": {
+    "bounds_max": [
+      0.6762999892234802,
+      0.742900013923645,
+      0.6700999736785889
+    ],
+    "bounds_min": [
+      -0.6062999963760376,
+      -0.5720999836921692,
+      -0.5339000225067139
+    ],
+    "camera_aspect": 1.0,
+    "camera_distance": 3.0992271900177,
+    "camera_fit_margin": 1.0800000429153442,
+    "camera_target": [
+      0.034999996423721313,
+      0.08540001511573792,
+      0.0680999755859375
+    ],
+    "colors": "canonical-SurfaceReading",
+    "lighting": {
+      "ambient_intensity": 0.44999998807907104,
+      "clear_color": [
+        0.3400000035762787,
+        0.3400000035762787,
+        0.3400000035762787,
+        1.0
+      ],
+      "direct_intensity": 1.7999999523162842,
+      "environment_additive_fallback_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sun_direction": [
+        0.40824830532073975,
+        0.8164966106414795,
+        0.40824830532073975
+      ]
+    },
+    "materials": "canonical-MAT1",
+    "normals": "authored",
+    "requested_camera_distance": 3.0992271900177,
+    "screen_space_ao_available": true,
+    "screen_space_ao_radius_m": 0.05000000074505806,
+    "screen_space_ao_samples": 12,
+    "screen_space_ao_strength": 0.75,
+    "shadows_available": true,
+    "tangents": "absent-renderer-derived",
+    "texture_coordinates": "absent",
+    "triangle_count": 11932,
+    "vertex_count": 6440,
+    "vertical_tan_half_fov": 0.4142135679721832
+  },
+  "renderer": "QualiaDB webizen-render::VolumetricRenderer / PortalGpu native offscreen path",
+  "schema": "synth.native-10d-preview/v1",
+  "scope": "native readback PNG projection; not model acceptance or an adapter capability receipt",
+  "source": {
+    "bytes": 225968,
+    "path": "\\\\?\\C:\\github\\eco-intent\\themeda-triandra\\dist\\themeda-triandra.10d",
+    "sha256": "791ab64e45e4915d8e3c6681aa24d504e57626e7a5252da5878387c0a318a6d8"
+  },
+  "textures": {
+    "status": "no HMC supplied; renderer fallback textures may be used"
+  },
+  "views": [
+    {
+      "bytes": 354532,
+      "camera_distance_applied": 3.0992271900177,
+      "camera_distance_requested": 3.0992271900177,
+      "camera_pitch": 0.2800000011920929,
+      "camera_target": [
+        0.034999996423721313,
+        0.08540001511573792,
+        0.0680999755859375
+      ],
+      "camera_yaw": 0.7200000286102295,
+      "file": "three-quarter-view-assumed.png",
+      "height": 2048,
+      "sha256": "854f632bdecbe608a8d2b084edfd4d3cf4fdc49dd0ed0eba03ce4f5d8ecab10c",
+      "width": 2048
+    },
+    {
+      "bytes": 349138,
+      "camera_distance_applied": 3.0992271900177,
+      "camera_distance_requested": 3.0992271900177,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        0.034999996423721313,
+        0.08540001511573792,
+        0.0680999755859375
+      ],
+      "camera_yaw": 1.5707963705062866,
+      "file": "side-view-assumed.png",
+      "height": 2048,
+      "sha256": "a3e372dfedfe9155a68d5a19c4ffaf8d64b6e9c2212d1282a2563c3232e0e01b",
+      "width": 2048
+    },
+    {
+      "bytes": 343569,
+      "camera_distance_applied": 3.0992271900177,
+      "camera_distance_requested": 3.0992271900177,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        0.034999996423721313,
+        0.08540001511573792,
+        0.0680999755859375
+      ],
+      "camera_yaw": 0.0,
+      "file": "front-view-assumed.png",
+      "height": 2048,
+      "sha256": "2c4ec291503c11bf9e4015158e3258b46fcbfdf537ebdb863f89bb19d6795358",
+      "width": 2048
+    }
+  ]
+}

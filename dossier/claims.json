@@ -1,0 +1,17 @@
+{
+  "document_kind": "claim_ledger",
+  "schema_version": "ecopunk-model-claims-v2",
+  "catalogue": {
+    "id": "ecopunk-model-deliverables",
+    "version": "2026-10-24.2",
+    "sha256": "c0cb76151bf5d0776afaae4d59d7427efb65633bf359d3f4c2bda83c361c91cb"
+  },
+  "subject": {
+    "entity_id": "urn:qualia:taxon:themeda_triandra",
+    "dossier_id": "WEB-WP-15C-themeda-triandra",
+    "families": [
+      "flora_funga"
+    ],
+    "reported_status": "incomplete"
+  }
+}

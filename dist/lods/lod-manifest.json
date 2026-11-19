@@ -1,0 +1,152 @@
+{
+  "schema": "intenteco.lod-manifest/v1",
+  "slug": "themeda-triandra",
+  "did": "did:q42:taxon:themeda_triandra",
+  "kingdom": "flora",
+  "source_10d": {
+    "file": "themeda-triandra.10d",
+    "bytes": 225968,
+    "sha256": "791ab64e45e4915d8e3c6681aa24d504e57626e7a5252da5878387c0a318a6d8",
+    "vertices": 6440,
+    "triangles": 11932,
+    "bounds_min": [
+      -0.6062999963760376,
+      -0.5720999836921692,
+      -0.5339000225067139
+    ],
+    "bounds_max": [
+      0.6762999892234802,
+      0.742900013923645,
+      0.6700999736785889
+    ]
+  },
+  "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-themeda-triandra-1795061450-c3f0c9.hmc",
+  "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-themeda-triandra-1795061450-c3f0c9",
+  "lods": {
+    "lod0": {
+      "bytes": 100496,
+      "sha256": "a9af59287478986af0ce97357573157af8322ca7731481bbeeb91c99ecc08663",
+      "vertices": 4074,
+      "triangles": 7200,
+      "bounds_min": [
+        -0.6059474945068359,
+        -0.5720999836921692,
+        -0.5336475372314453
+      ],
+      "bounds_max": [
+        0.6759282350540161,
+        0.742900013923645,
+        0.669975996017456
+      ],
+      "sections": [
+        "QuantizedMesh",
+        "FieldSidecar",
+        "SurfaceReading"
+      ],
+      "file": "themeda-triandra-lod0.10d",
+      "distance_band_m": "0-25m",
+      "local_url": "/intenteco/themeda-triandra/dist/lods/themeda-triandra-lod0.10d",
+      "remote_url": "https://raw.githubusercontent.com/intenteco/themeda-triandra/main/dist/lods/themeda-triandra-lod0.10d"
+    },
+    "lod1": {
+      "bytes": 35996,
+      "sha256": "ba167ee5b458c9814821986fd6a0a868599aa276c4b7a01af74c4d792312a0de",
+      "vertices": 1485,
+      "triangles": 2490,
+      "bounds_min": [
+        -0.48050928115844727,
+        -0.4500747323036194,
+        -0.46153804659843445
+      ],
+      "bounds_max": [
+        0.5072283148765564,
+        0.7018060088157654,
+        0.4754103720188141
+      ],
+      "sections": [
+        "QuantizedMesh",
+        "FieldSidecar",
+        "SurfaceReading"
+      ],
+      "file": "themeda-triandra-lod1.10d",
+      "distance_band_m": "25-90m",
+      "local_url": "/intenteco/themeda-triandra/dist/lods/themeda-triandra-lod1.10d",
+      "remote_url": "https://raw.githubusercontent.com/intenteco/themeda-triandra/main/dist/lods/themeda-triandra-lod1.10d"
+    },
+    "lod2": {
+      "bytes": 13320,
+      "sha256": "18cdd076e89791fd449775553bd7b1697b6215d63254fbd16d5efe91337bb6d1",
+      "vertices": 564,
+      "triangles": 860,
+      "bounds_min": [
+        -0.4083438813686371,
+        -0.3288489580154419,
+        -0.35588163137435913
+      ],
+      "bounds_max": [
+        0.388690710067749,
+        0.5439025163650513,
+        0.3842675983905792
+      ],
+      "sections": [
+        "QuantizedMesh",
+        "FieldSidecar",
+        "SurfaceReading"
+      ],
+      "file": "themeda-triandra-lod2.10d",
+      "distance_band_m": ">90m",
+      "local_url": "/intenteco/themeda-triandra/dist/lods/themeda-triandra-lod2.10d",
+      "remote_url": "https://raw.githubusercontent.com/intenteco/themeda-triandra/main/dist/lods/themeda-triandra-lod2.10d"
+    },
+    "aboveground_lod1": {
+      "bytes": 35344,
+      "sha256": "3b3e7d4880f208c8cf1690f2ed35c7b0d8b905479243b779047f5686805feae5",
+      "vertices": 1534,
+      "triangles": 2268,
+      "bounds_min": [
+        -0.48050928115844727,
+        -0.20000000298023224,
+        -0.46153804659843445
+      ],
+      "bounds_max": [
+        0.5072283148765564,
+        0.7018060088157654,
+        0.4754103720188141
+      ],
+      "sections": [
+        "QuantizedMesh",
+        "FieldSidecar",
+        "SurfaceReading"
+      ],
+      "file": "themeda-triandra-aboveground-lod1.10d",
+      "distance_band_m": "25-90m (y >= -0.20m)",
+      "local_url": "/intenteco/themeda-triandra/dist/lods/themeda-triandra-aboveground-lod1.10d",
+      "remote_url": "https://raw.githubusercontent.com/intenteco/themeda-triandra/main/dist/lods/themeda-triandra-aboveground-lod1.10d"
+    },
+    "rhizosphere": {
+      "bytes": 28524,
+      "sha256": "bbd87c367ae9a43e85266ed82e1e660ba0e56153b468a13617bbb90f8b5aeea8",
+      "vertices": 1341,
+      "triangles": 1582,
+      "bounds_min": [
+        -0.47881168127059937,
+        -0.4500747323036194,
+        -0.46153804659843445
+      ],
+      "bounds_max": [
+        0.47909530997276306,
+        0.15000000596046448,
+        0.4257892370223999
+      ],
+      "sections": [
+        "QuantizedMesh",
+        "FieldSidecar",
+        "SurfaceReading"
+      ],
+      "file": "themeda-triandra-rhizosphere.10d",
+      "distance_band_m": "xray-subterranean (y <= 0.15m)",
+      "local_url": "/intenteco/themeda-triandra/dist/lods/themeda-triandra-rhizosphere.10d",
+      "remote_url": "https://raw.githubusercontent.com/intenteco/themeda-triandra/main/dist/lods/themeda-triandra-rhizosphere.10d"
+    }
+  }
+}

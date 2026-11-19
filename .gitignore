@@ -1,0 +1,4 @@
+.synth/secrets.json
+.synth/inbox/
+*.tmp
+__pycache__/

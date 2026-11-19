@@ -1,0 +1,12 @@
+{
+  "schema": "synth.project/v1",
+  "name": "themeda-triandra",
+  "brief": "Themeda triandra Forssk. (Kangaroo Grass) \u2014 South-Eastern Australian Grassy box-gum woodlands, basalt plains & open sclerophyll understorey (SE Australia) ontology, multi-station 3D CAD, InstanceState64 ontogeny, and Hypermedia (.hmc) production repository (Work-Packet WEB-WP-15C).",
+  "sources": [
+    "ontology",
+    "source",
+    "dossier"
+  ],
+  "working": "previews",
+  "delivered": "dist"
+}

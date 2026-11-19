@@ -1,0 +1,19 @@
+{
+  "schema": "synth.jobs/v1",
+  "items": [
+    {
+      "id": "themeda-triandra-taxon-ttl",
+      "kind": "compile",
+      "source_path": "eco-intent/themeda-triandra/ontology/taxon.ttl",
+      "out_q42": "themeda-triandra-15c-taxon.q42",
+      "ingest_to_graph": false
+    },
+    {
+      "id": "themeda-triandra-index-ttl",
+      "kind": "compile",
+      "source_path": "eco-intent/themeda-triandra/ontology/index.ttl",
+      "out_q42": "themeda-triandra-15c-index.q42",
+      "ingest_to_graph": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+import "vibe:0.3/nquin" as nquin;
+import "vibe:0.1/math" as math;
+requires [capability("capability.invoke")];
+
+// Themeda triandra Forssk. (Kangaroo Grass) — WEB-WP-15C Ontogeny & Wind Harmonics Actuation
+let actuation_parity = nquin.wire.compute_wire_parity([84, 116, 114, 105, 65]);
+
+pure fn clamp01(x: f64) -> f64 {
+    if x < 0.0 { return 0.0; }
+    if x > 1.0 { return 1.0; }
+    return x;
+}
+
+pure fn evaluate_wind_harmonics(wind_speed_ms: f64, time_s: f64) {
+    let two_pi = 6.283185307179586;
+    let w = clamp01(wind_speed_ms / 14.0);
+    let f0 = 1.55;
+    let primary_wave = w * 0.34 * math.sin(two_pi * f0 * time_s);
+    let tip_flutter = w * 0.18 * math.sin(two_pi * (f0 * 3.1) * time_s + 0.5);
+    return {
+        natural_sway_hz: f0,
+        primary_wave_rad: primary_wave,
+        tip_flutter_rad: tip_flutter,
+        damping_ratio: 0.24
+    };
+}
+
+let sample = evaluate_wind_harmonics(6.5, 1.5);
